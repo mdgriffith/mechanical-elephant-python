@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mechanical Elephant</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/d3.v3.min.js"></script>
+    </head>
+    <body>
+        <div id="main">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="title"><span id="main"><small>The</small> Mechanical Elephant</span><br />
+                <span id="subtitle">That remembers everything Matthew Griffith has done</span>
+        </div>
+            
+        <nav>
+            <a href="archive">Archive</a>
+            <a href="resources">Resources</a>
+            <a href="about">About</a>
+        </nav>
+        <div id="gears">
+            <img id="mortimer" src="img/MechanicalElephantLightHole3.png">
+            <img id="skull" class="skull" src="img/backskull2.png">
+        </div>
+       
+
+        <div id="page">
+         <!--    <header>Hard Work and Blatant Thievery</header>
+            <span class="subtitle">or how Mechanical Elephant was conceived, designed and implemented.</span>
+            <hr />
+            <p><span class="drop">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat urna non tortor porttitor at blandit neque feugiat. Pellentesque et ligula id lorem commodo lacinia. Aliquam blandit gravida nisi dictum mattis. Morbi auctor elit sit amet nunc congue pretium semper sem elementum. <a href="#">Fusce congue</a> volutpat mauris at tincidunt. Curabitur ut sapien tellus, ac sagittis augue. Nullam quam ligula, faucibus et ullamcorper sit amet, elementum ut lectus. Nulla quis lacus at felis fringilla tempus. Donec quis erat risus. Sed gravida sapien at nibh consequat in elementum massa lobortis.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consequat urna non tortor porttitor at blandit neque feugiat. Pellentesque et ligula id lorem commodo lacinia. Aliquam blandit gravida nisi dictum mattis. Morbi auctor elit sit amet nunc congue pretium semper sem elementum. <a href="#">Fusce congue</a> volutpat mauris at tincidunt. Curabitur ut sapien tellus, ac sagittis augue. Nullam quam ligula, faucibus et ullamcorper sit amet, elementum ut lectus. Nulla quis lacus at felis fringilla tempus. Donec quis erat risus. Sed gravida sapien at nibh consequat in elementum massa lobortis.</p>
+
+            <header>Archive</header>
+            <hr />
+            <div class="archive">
+                <a href="hardwork">Hard Work and Blatant Thievery</a><br />
+                <span class="subtitle">or how Mechanical Elephant was conceived, designed and implemented.</span>
+            </div>     
+           
+            <div class="archive">
+                <a href="hardwork">Hard Work and Blatant Thievery</a><br />
+                <span class="subtitle">or how Mechanical Elephant was conceived, designed and implemented.</span>
+            </div> -->
+
+            <header>About</header>
+            <hr />
+            <div class="archive">
+                <a href="hardwork">Hard Work and Blatant Thievery</a><br />
+                <span class="subtitle">or how Mechanical Elephant was conceived, designed and implemented.</span>
+            </div>     
+           
+            <div class="archive">
+                <a href="hardwork">Hard Work and Blatant Thievery</a><br />
+                <span class="subtitle">or how Mechanical Elephant was conceived, designed and implemented.</span>
+            </div>
+
+        </div>
+        
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/svggears.js"></script>
+        <script type="text/javascript">
+                   
+                    var width = 260,
+                        height = 260,
+                        radius = 80,
+                        x = Math.sin(2 * Math.PI / 3),
+                        y = Math.cos(2 * Math.PI / 3);
+
+                    var lock = function(size, size2, angle){
+                        var r = size*5;
+                        var r2 = size2*5;
+                        var distance = r-r2;
+                        var coords = rotate(0,distance,0,0,angle);
+                        return coords
+                    }
+                    var rotate = function(x, y, xm, ym, a) {
+                        var cos = Math.cos,
+                            sin = Math.sin,
+
+                            a = a * Math.PI / 180, // Convert to radians because that's what
+                                                   // JavaScript likes
+
+                            // Subtract midpoints, so that midpoint is translated to origin
+                            // and add it in the end again
+                            xr = (x - xm) * cos(a) - (y - ym) * sin(a)   + xm,
+                            yr = (x - xm) * sin(a) + (y - ym) * cos(a)   + ym;
+
+                        return [xr, yr];
+                    }
+
+
+
+                    var Planetary = function(frame){
+                        frame.append("g")
+                           .attr("class", "inset")
+                           // .attr("transform", "translate(" + radius * offset[0] + "," + radius * offset[1] + ")")
+                          .append("circle")
+                           .attr("cx", "0")
+                           .attr("cy", "0")
+                           .attr("r", 39*5)
+                        window.Gear(frame, 37, [0, 0], -1, null, "annulus", true);
+                        window.Gear(frame, 11, [22, -60], 1, 3, "sun");
+                        window.Gear(frame, 19, lock(37, 19, 0), -1, null, "planet");
+                        window.Gear(frame, 11, lock(37, 11, 140), -1, 2, "planet");
+                        window.Gear(frame, 7, lock(37, 7, 215), -1, -2, "planet");
+                    }
+
+
+                  
+
+                    var offset = 0,
+                        speed = 3,
+                        start = Date.now();
+
+                    var svg = d3.select("#gears").append("svg")
+                        .attr("width", width)
+                        .attr("height", height)
+                      .append("g")
+                        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(0.30)rotate(40)")
+                      .append("g");
+
+                    var frame = svg.append("g")
+                        .datum({radius: Infinity});
+
+                    Planetary(frame);
+
+                   
+                   
+                    
+                  
+
+                   
+
+                    d3.selectAll("input[name=reference]")
+                        .data([radius * 5, Infinity, -radius])
+                        .on("change", function(radius1) {
+                          var radius0 = frame.datum().radius, angle = (Date.now() - start) * speed;
+                          frame.datum({radius: radius1});
+                          svg.attr("transform", "rotate(" + (offset += angle / radius0 - angle / radius1) + ")");
+                        });
+
+                    // d3.selectAll("input[name=speed]")
+                    //     .on("change", function() { speed = +this.value; });
+
+                  
+
+                    var tick = function() {
+                      var angle = (Date.now() - start) * speed;
+                    
+                      var transform = function(d) { 
+                                return "rotate(" + angle / (d.radius*d.direction) + ")"; 
+                      };
+                      frame.selectAll("path").attr("transform", transform);
+                      // svg.attr("transform", "rotate(" +  (angle / (37*5)) + ")");
+                      // svg.attr("transform", "rotate(" +  (angle / (30*5)) + ")");
+                      // frame.attr("transform", transform); // frame of reference
+                      setTimeout(tick, 20);
+                    }
+
+                    setTimeout(tick, 20);
+                    $("#mortimer").hover(function(){
+                        console.log("HOVER")
+                        $(this).fadeTo(500,0.5);
+                    }, function(){
+                        $(this).fadeTo(500,1);
+                    })
+
+
+        </script>
+
+    </body>
+</html>

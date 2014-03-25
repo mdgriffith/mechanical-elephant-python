@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <article>
+        <header>
+            <a href="{{ SITEURL }}/articles/{{ article.slug }}" >
+            <h1>{{ article.title }}</h1>
+            <div class="subtitle">{{ article.subtitle }}</div>
+            </a>
+        </header>
+
+        {{ article.content }}
+
+        {% include 'svg/break.html' %}
+        
+    </article>
+{% endblock content %}

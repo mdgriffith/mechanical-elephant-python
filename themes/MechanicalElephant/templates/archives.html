@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block page %}archive{% endblock page %}
+{% block content %}
+            <article>
+                <header>
+                    <h1>Archives</h1>
+                </header>
+            {# include 'svg/break.html' #}
+
+            {% for category, articles in categories %}
+                 {% for article in articles %}
+                <div class="container">
+                    <a href="{{ SITEURL }}/articles/{{ article.slug }}">
+                    <div class="card drop-first">
+                        {{ article.title }}
+                        <div class="subtitle">{{ article.subtitle }}</div>
+                    </div>
+                    </a>
+                </div>
+                
+                {% endfor %}
+            {% endfor %}
+               {% include 'svg/break.html' %}
+            </article>
+{% endblock content %}

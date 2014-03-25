@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mechanical Elephant</title>
+        <meta name="description" content="Mechanical Elephant designs and creates interactive products and science based experiences. Led by Matthew Griffith, Mechanical Elephant is based in Manhattan. This is about their creative process.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Cardo|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="top-bar">
+            <div class="container">
+                <div class="pull-left small-logo">Mechanical Elephant</div>
+                <a href="/articles/death-to-lorem-ipsum">
+                    The First Article of the Site
+                    <span class="subtitle">and how I should actually write it.</span>
+                </a>
+              <!--   <a href="{{ SITEURL }}/archives.html">Archive</a>
+                {% include 'svg/break.html' %}
+                <a id="last" href="{{ SITEURL }}/pages/about/">About</a> -->
+            </div>
+        </div>
+
+        <header>
+            <h1>Mechanical Elephant</h1>
+            <span id="subtitle">{% include 'svg/break-dark.html' %}</span>
+                                    
+
+            <div id="description">
+            I design.<br />
+            This is my creative process.
+            </div>
+
+            <nav>
+                <div class="container">
+                    <a class="nav-link" href="{{ SITEURL }}/archives.html">Archive</a>
+                    <a class="nav-link" id="last" href="{{ SITEURL }}/pages/about">About</a>
+                    <!--  -->
+                        <a href="{{ SITEURL }}/">
+                        <div id="gears">
+                            <img id="skull" class="elephant" src="{{ SITEURL }}/theme/img/logo/darker.png" width="170" height="233" />
+                            <img id="mortimer" class="elephant" src="{{ SITEURL }}/theme/img/logo/coverclean.png" width="170" height="233" />
+                            {% include 'svg/planetary.svg' %}
+                        </div>
+                    </a>
+
+                </div>
+            </nav>
+        </header>
+
+        <div id="main">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+            <div id="page" class="{% block page %}{% endblock %}">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+
+        <footer>
+            <div class="copyright">copyright Mechanical Elephant LLC.</div>
+        </footer>
+        
+        <script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"><\/script>')</script>
+        <!-- // <script src="{{ SITEURL }}/theme/js/svggears.js"></script> -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // var dropped = false;
+                // $(window).scroll(function(){
+                //     if (dropped === false && $(window).scrollTop() >= $("nav").offset().top) {
+                //         $(".top-bar").show();
+                //         dropped = true
+                //     } else if (dropped === true && $(window).scrollTop() < $("nav").offset().top) {
+                //         $(".top-bar").hide();
+                //         dropped = false
+                //     }
+                // })  
+
+                var start = Date.now();
+                var speed = 3;
+                var rotateAll = function(elem, speed){
+                    var tick = function() {
+                      var angle = (Date.now() - start) * speed;
+                    
+                      var transform = function(d) { 
+                            var radius = $(this).attr("radius");
+                            var direction = $(this).attr("direction");
+                            if (radius !== undefined){
+                                 return "rotate(" + angle / (radius*direction) + ")"; 
+                            }
+                      };
+                      // elem.selectAll("path").attr("transform", transform);
+                      elem.find("path").attr("transform", transform)
+                      setTimeout(tick, 40);
+                    }
+                    return tick
+                }
+                rotateAll($("#gears"), speed)()
+                rotateAll($(".goldgear"), 2)()
+
+                $("#gears").hover(function(){
+                    $("#gears #mortimer").fadeTo(300, 0.9);
+                },function(){
+                    $("#gears #mortimer").fadeTo(300, 1);
+                })
+            });
+        </script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.mechanical-elephant.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+            g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="http://analytics.mechanical-elephant.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+
+    </body>
+</html>
