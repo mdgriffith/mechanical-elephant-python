@@ -1,0 +1,3670 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "17908",
+"files": {
+	"\/content\/hardwork.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/hardwork.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/hardwork.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/hardwork.md",
+		"outputAbbreviatedPath": "\/content\/hardwork.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/content\/pages\/about.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content\/pages\/about.md",
+		"outputAbbreviatedPath": "\/content\/pages\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/html4css1\/html4css1.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/html4css1\/html4css1.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/html4css1\/math.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/html4css1\/math.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/pep_html\/pep.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/pep_html\/pep.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-black\/framing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-black\/framing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-black\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-black\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-white\/framing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-white\/framing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-white\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/big-white\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/framing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/framing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/opera.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/opera.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/outline.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/outline.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/s5-core.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/s5-core.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/slides.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/slides.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/slides.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/slides.js",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/default\/min\/slides-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-black\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-black\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-white\/framing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-white\/framing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-white\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/medium-white\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-black\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-black\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-white\/framing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-white\/framing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-white\/pretty.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/docutils\/writers\/s5_html\/themes\/small-white\/pretty.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/broken.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/broken.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/foo\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/foo\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/syntaxerror.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/syntaxerror.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/jinja2\/testsuite\/res\/templates\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/2012-11-30_md_w_filename_meta#foo-bar.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/2012-11-30_md_w_filename_meta#foo-bar.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/2012-11-30_md_w_filename_meta#foo-bar.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_comments.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_comments.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_keywords.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_keywords.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_footnote.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_footnote.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_footnote.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_nonascii_summary.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_nonascii_summary.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_nonascii_summary.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_multi.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_multi.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_multi.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_single.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_single.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_and_summary_metadata_single.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_markup_extensions.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_markup_extensions.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_markdown_markup_extensions.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_md_extension.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_md_extension.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_md_extension.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_metadata.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_metadata.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_metadata_and_contents.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_metadata_and_contents.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_null_attributes.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_null_attributes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_uppercase_metadata.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/content\/article_with_uppercase_metadata.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/a-markdown-powered-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/a-markdown-powered-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/archives.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/archives.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/article-3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/author\/alexis-metaireau.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/author\/alexis-metaireau.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/authors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/authors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/categories.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/categories.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/bar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/bar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/cat1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/cat1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/misc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/misc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/category\/yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/filename_metadata-example.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/filename_metadata-example.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/oh-yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/oh-yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/override\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/override\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/pages\/this-is-a-test-hidden-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/pages\/this-is-a-test-hidden-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/pages\/this-is-a-test-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/pages\/this-is-a-test-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/second-article-fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/second-article-fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/second-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/second-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/bar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/bar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/baz.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/baz.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/foo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/foo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/foobar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/foobar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/oh.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/oh.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tag\/yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/tags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/pygment.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/pygment.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/reset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/typogrify.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/typogrify.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/wide.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/css\/wide.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/aboutme.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 751,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/aboutme.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/aboutme.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/bitbucket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3714,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/bitbucket.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/bitbucket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/delicious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/delicious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/delicious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/facebook.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/github.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gitorious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gitorious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gitorious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gittip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 487,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gittip.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/gittip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-groups.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 803,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-groups.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-groups.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-plus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 527,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-plus.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/google-plus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/hackernews.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3273,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/hackernews.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/hackernews.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/lastfm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 975,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/lastfm.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/lastfm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 896,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/linkedin.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/reddit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/reddit.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/reddit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/rss.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/rss.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/rss.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/slideshare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 535,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/slideshare.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/slideshare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/speakerdeck.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1049,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/speakerdeck.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/speakerdeck.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/stackoverflow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 916,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/stackoverflow.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/stackoverflow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 830,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/twitter.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/vimeo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/vimeo.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/vimeo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/youtube.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/theme\/images\/icons\/youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/this-is-a-super-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/this-is-a-super-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/unbelievable.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/basic\/unbelievable.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/a-markdown-powered-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/a-markdown-powered-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/archives.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/archives.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/article-3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/author\/alexis-metaireau3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/authors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/authors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/categories.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/categories.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/bar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/bar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/cat1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/cat1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/misc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/misc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/category\/yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/drafts\/a-draft-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/drafts\/a-draft-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/filename_metadata-example.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/filename_metadata-example.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/index3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/jinja2_template.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/jinja2_template.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/oh-yeah-fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/oh-yeah-fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/oh-yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/oh-yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/override\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/override\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/pages\/this-is-a-test-hidden-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/pages\/this-is-a-test-hidden-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/pages\/this-is-a-test-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/pages\/this-is-a-test-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/second-article-fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/second-article-fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/second-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/second-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/bar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/bar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/baz.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/baz.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/foo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/foo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/foobar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/foobar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/oh.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/oh.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/yeah.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tag\/yeah.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/tags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/pygment.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/pygment.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/reset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/typogrify.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/typogrify.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/wide.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/css\/wide.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/aboutme.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 751,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/aboutme.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/aboutme.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/bitbucket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3714,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/bitbucket.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/bitbucket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/delicious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/delicious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/delicious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/facebook.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/github.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gitorious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gitorious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gitorious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gittip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 487,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gittip.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/gittip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-groups.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 803,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-groups.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-groups.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-plus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 527,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-plus.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/google-plus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/hackernews.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3273,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/hackernews.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/hackernews.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/lastfm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 975,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/lastfm.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/lastfm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 896,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/linkedin.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/reddit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/reddit.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/reddit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/rss.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/rss.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/rss.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/slideshare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 535,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/slideshare.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/slideshare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/speakerdeck.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1049,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/speakerdeck.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/speakerdeck.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/stackoverflow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 916,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/stackoverflow.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/stackoverflow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 830,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/twitter.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/vimeo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/vimeo.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/vimeo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/youtube.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/theme\/images\/icons\/youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/this-is-a-super-article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/this-is-a-super-article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/unbelievable.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/output\/custom\/unbelievable.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/hidden_page_markdown.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/hidden_page_markdown.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/hidden_page_markdown.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/page_markdown.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/page_markdown.md",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/tests\/TestPages\/page_markdown.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/pygment.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/pygment.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/reset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/reset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/typogrify.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/typogrify.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/wide.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/css\/wide.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/aboutme.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 751,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/aboutme.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/aboutme.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/bitbucket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3714,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/bitbucket.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/bitbucket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/delicious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/delicious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/delicious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/facebook.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/github.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gitorious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 227,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gitorious.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gitorious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gittip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 487,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gittip.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/gittip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-groups.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 803,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-groups.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-groups.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-plus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 527,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-plus.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/google-plus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/hackernews.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3273,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/hackernews.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/hackernews.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/lastfm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 975,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/lastfm.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/lastfm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/linkedin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 896,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/linkedin.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/reddit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/reddit.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/reddit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/rss.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/rss.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/rss.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/slideshare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 535,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/slideshare.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/slideshare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/speakerdeck.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1049,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/speakerdeck.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/speakerdeck.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/stackoverflow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 916,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/stackoverflow.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/stackoverflow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 830,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/twitter.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/vimeo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/vimeo.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/vimeo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 458,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/youtube.png",
+		"outputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/static\/images\/icons\/youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/analytics.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/analytics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/archives.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/archives.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/article_infos.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/article_infos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/author.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/author.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/authors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/authors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/base.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/base.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/category.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/category.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/comments.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/comments.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/disqus_script.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/disqus_script.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/github.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/github.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/piwik.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/piwik.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/tag.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/tag.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/taglist.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/taglist.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/tags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/tags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/translations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/translations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/twitter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/notmyidea\/templates\/twitter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/archives.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/archives.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/author.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/author.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/authors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/authors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/base.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/base.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/categories.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/categories.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/category.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/category.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/gosquared.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/gosquared.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/pagination.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/pagination.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/tag.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/tag.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/tags.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/tags.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/translations.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/env\/lib\/python2.7\/site-packages\/pelican\/themes\/simple\/templates\/translations.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/backskull.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 505817,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/backskull.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/backskull.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/backskull2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 492064,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/backskull2.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/backskull2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/Ghost.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306652,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/Ghost.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/Ghost.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224115,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/dark.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/darker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189574,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/darker.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/darker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/Gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 339823,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/Gray.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/Gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemoved.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 345981,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemoved.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemoved.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedCleaned.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337993,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedCleaned.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedCleaned.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedLight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 336854,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedLight.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/logo\/HeadRemovedLight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephant.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 859128,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephant.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephant.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLight.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502924,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLight.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLight.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 489513,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 503481,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole2.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 500569,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole3.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightHole3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightLines.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270123,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightLines.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantLightLines.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337131,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_Cleared.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362363,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_Cleared.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_Cleared.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_SuperClean.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359331,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_SuperClean.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhite_SuperClean.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 280147,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared2.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304238,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared_3.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/design\/webimages\/MechanicalElephantWhiteCleared_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon-114x114-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1189,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-114x114-precomposed.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-114x114-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon-144x144-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1475,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-144x144-precomposed.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-144x144-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon-57x57-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-57x57-precomposed.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-57x57-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon-72x72-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 854,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-72x72-precomposed.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-72x72-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/font-awesome-ie7.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/font-awesome-ie7.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/font-awesome-ie7.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/font-awesome.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/font-awesome.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/font-awesome.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/holding.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/holding.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/holding.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/main.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/main.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/mini.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/mini.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/mini.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/mini.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/mini.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/css\/normalize.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/normalize.less",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/css\/normalize.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/Bee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30464,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/Bee.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/Bee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/logo\/cover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74862,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/cover.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/cover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/logo\/coverclean.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42667,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/coverclean.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/coverclean.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/logo\/dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56244,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/dark.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/logo\/darker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22371,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/darker.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/logo\/darker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/MortimerAndI.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31707,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerAndI.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerAndI.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/MortimerSketch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35217,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerSketch.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerSketch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/MortimerSketch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32574,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerSketch2.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/MortimerSketch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24694,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40602,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark2.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered-dark2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31440,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.jpg",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137733,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered_@2X.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190781,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered_@2X.png",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/img\/shattered\/shattered_@2X.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/d3.v3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/d3.v3.min.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/min\/d3.v3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/gears.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/gears.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/min\/gears-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/generate_gear_snippets.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/generate_gear_snippets.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/generate_gear_snippets.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/generate_gear_snippets.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/generate_gear_snippets.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/min\/generate_gear_snippets-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/raphael-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/raphael-min.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/min\/raphael-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/svggears.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/svggears.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/svggears.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/svggears.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/svggears.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/min\/svggears-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/vendor\/jquery-1.9.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/vendor\/jquery-1.9.1.min.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/vendor\/min\/jquery-1.9.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/static\/js\/vendor\/modernizr-2.6.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/vendor\/modernizr-2.6.2.min.js",
+		"outputAbbreviatedPath": "\/themes\/MechanicalElephant\/static\/js\/vendor\/min\/modernizr-2.6.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/themes\/MechanicalElephant\/templates\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/archives.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/archives.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/base.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/base.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/svg\/break-dark.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/svg\/break-dark.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/svg\/break.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/svg\/break.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/svg\/gears.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/svg\/gears.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/themes\/MechanicalElephant\/templates\/temp_index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/themes\/MechanicalElephant\/templates\/temp_index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Matthew Griffith",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "mechanical-elephant",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_gray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 1,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

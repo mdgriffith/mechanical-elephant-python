@@ -18,15 +18,14 @@ Well, the first thing I needed was a bit of direction on what this website would
 
 I sat on it awhile.  I knew I wanted to show a tiny bit of fun programming, specifically animations in the browser using SVG, and that sort of led me to looking into cogs and gears.  Conceptually, this made a few dimensions of sense.  I could have my little programming sub project in making the animations, it's not hard to jump from the visual of gears to science, and lets face it, they're just fun.
 
-So, I made <this small gear library>, using D3.js, <this example>, and a random gif I found online of an asymmetrical planetary gear configuration.
 
-[gears]
+So, I made <this small gear library>, using D3.js, <this example>, and a random gif I found online of an asymmetrical planetary gear configuration.
 
 But, there was a bit of a problem.  The gears were cool, but they weren't enough by themselves.  In fact, the gears weren't just cool, they seemed a bit cold and I had no idea how to address that.
 
-![Mortimer](/theme/img/MortimerAndI.jpg)
-
 So, again, I sat on it, or rather, I had the luxury to sit on it.  My brain was chewing on the problem.  I had no deadlines, really, this was a personal project.  That can be a good or a very bad thing.
+
+<img class="right" src="/theme/img/MortimerAndI.jpg" />
 
 Some months later, I bought a gold-painted, resin-molded elephant head on etsy.  
 
@@ -34,7 +33,7 @@ If that sounds random, it is and thats the point, because that's how I broke out
 
 Click.  There it was.  Warmth.  It had a face(though he looks a bit angry).  It had resonances in contemplation with the memory of elephants.  The gears could be those thoughts, churning in the Elephant's head.  It now felt like a living character I was working with now and his name happened to be Mortimer.
 
-<img class="right" src="/theme/img/MortimerSketch2.png" />
+<img src="/theme/img/MortimerSketch2.png" />
 
 I sketched Mortimer from a picture on my phone, while on a flight out to California . 
 

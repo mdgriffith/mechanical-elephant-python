@@ -1,0 +1,103 @@
+{% import 'svg/gears.html' as gears %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mechanical Elephant</title>
+        <meta name="description" content="Mechanical Elephant designs and creates interactive products and science based experiences. Led by Matthew Griffith, Mechanical Elephant is based in Manhattan. This is about their creative process.">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/mini.css">
+        <link href='http://fonts.googleapis.com/css?family=Cardo:700,400' rel='stylesheet' type='text/css'>
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            <h1>
+                {{ gears.planetary() }}
+                Mechanical Elephant <div class="subtitle"> A New Creative Design Company</div></h1>
+        </header>
+        <div id="description">
+            <a href="{{ SITEURL }}/">
+                <div id="gears">
+                    <img id="skull" class="elephant" src="{{ SITEURL }}/theme/img/logo/darker.png" width="170" height="233" />
+                    <img id="mortimer" class="elephant" src="{{ SITEURL }}/theme/img/logo/coverclean.png" width="170" height="233" />
+                    {{ gears.planetary2() }}
+                </div>
+            </a>
+        </div>
+        <span class="break">{{ gears.break() }}</span>
+        <footer>
+            <div class="copyright">© Copyright 2014 Matthew D Griffith. All rights reserved.</div>
+        </footer>
+        <script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"><\/script>')</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var start = Date.now();
+                var speed = 3;
+                var rotateAll = function(elem, speed){
+                    var tick = function() {
+                      var angle = (Date.now() - start) * speed;
+
+                      var transform = function(d) {
+                            var radius = $(this).attr("radius");
+                            var direction = $(this).attr("direction");
+                            if (radius !== undefined){
+                                 return "rotate(" + angle / (radius*direction) + ")";
+                            }
+                      };
+                      elem.attr("transform", transform)
+                      setTimeout(tick, 40);
+                    }
+                    return tick
+                }
+                var rotate = function(elem, speed, radius, direction, x, y){
+                    var tick = function() {
+                      var angle = (Date.now() - start) * speed;
+                      var transform = function(d) {
+                            if (radius !== undefined){
+                                 return "rotate(" + angle / (radius*direction) + ", "+x+","+y+")";
+                            }
+                      };
+                      elem.attr("transform", transform)
+                      setTimeout(tick, 40);
+                    }
+                    return tick
+                }
+
+
+
+                rotateAll($("#gears path"), speed)()
+                rotateAll($(".goldgear path"), 2)()
+                rotateAll($(".sketched path"), speed)()
+
+                rotateAll($(".rotate-anim"), speed)()
+                rotate($(".sketched"), speed, 185, -1, 150, 150)()
+
+                $("#gears").hover(function(){
+                    $("#gears #mortimer").fadeTo(300, 0.9);
+                },function(){
+                    $("#gears #mortimer").fadeTo(300, 1);
+                })
+            });
+        </script>
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.mechanical-elephant.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+            g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="http://analytics.mechanical-elephant.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+    </body>
+</html>

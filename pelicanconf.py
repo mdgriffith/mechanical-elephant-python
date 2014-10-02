@@ -31,6 +31,10 @@ THEME = "themes/MechanicalElephant"
 
 DEFAULT_PAGINATION = 3
 
+PLUGINS = [
+    'minify',
+]
+
 
 ## URL HANDLING
 # Uncomment following line if you want document-relative URLs when developing
