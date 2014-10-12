@@ -1502,13 +1502,14 @@ h1 {
   position: relative;
 }
 a {
-  color: #c19849;
+  color: #499dcc;
   text-decoration: none;
 }
 #subtitle {
   margin-top: 5px;
   display: block;
   font-size: 0.4em;
+  color: #c19849;
 }
 .blue {
   color: #499dcc;
@@ -1747,8 +1748,11 @@ nav {
   top: 110px;
   padding-left: 95px;
   background-color: #eeeeee;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
   z-index: -30;
-  padding-right: 400px;
+  padding-right: 700px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -1831,8 +1835,30 @@ svg.sketched {
   z-index: -1;
 }
 svg.sketched path {
-  stroke: #777777;
+  stroke: black;
   fill: #fafafa;
+}
+svg.sketched .inset circle {
+  fill: #434343;
+}
+svg.sketched {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-left: -135px;
+}
+svg.sketched .sun path {
+  fill: #c19849;
+  stroke: #111111;
+}
+svg.sketched .planet path {
+  fill: #fafafa;
+  stroke: #111111;
+}
+svg.sketched .annulus path {
+  fill: #fafafa;
+  stroke: #111111;
 }
 svg.sketched .inset circle {
   fill: #434343;
@@ -2020,8 +2046,11 @@ footer .copyright {
   z-index: 1;
 }
 .goldgear.dark svg path {
-  stroke: #777777;
+  stroke: black;
   fill: #fafafa;
+}
+.goldgear.dark hr.strike {
+  background-color: #DDD;
 }
 /* ==========================================================================
    Helper classes

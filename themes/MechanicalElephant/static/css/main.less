@@ -240,7 +240,7 @@ h2 {
   .decorativeFont();
 }
 a {
-    color:@action;
+    color:@brand-secondary;
     text-decoration: none;
     // &:hover {
         // color:@accent;
@@ -252,7 +252,7 @@ a {
   margin-top:5px;
   display:block;
   font-size:0.4em;
-  // color:@brand-secondary;
+  color:@action;
 }
 .blue {
   color:@brand-secondary;
@@ -563,11 +563,15 @@ nav {
     top:110px;
     padding-left:95px;
     background-color:@lighter;
+    border-top:1px solid @grey;
+    border-bottom:1px solid @grey;
+    border-right:1px solid @grey;
     // height:90px;
     z-index:-30;
-    padding-right:400px;
+    padding-right:700px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+
 
     .container {
       position:relative;
@@ -682,7 +686,7 @@ svg.sketched {
     // left:64px;
 
     path {
-        stroke:@darker;
+        stroke:black;
         fill:@light;
     }
     .inset circle {
@@ -692,7 +696,41 @@ svg.sketched {
 
 }
 
+svg.sketched {
+      position:absolute;
+      display:inline-block;
+      width:100px;
+      height:100px;
+      margin-left:-135px;
+      // opacity:0.5;
+      // top:12px;
+      // left:64px;
 
+      .sun path {
+            fill: @action;
+          // fill: #333333;
+          // fill:@darkest;
+          stroke:@darkest;
+      }
+
+      .planet path {
+            fill: @light;
+          // fill: #333333;
+          // fill:@darker;
+          stroke:@darkest;
+      }
+
+      .annulus path {
+        fill:@light;
+      //   fill:@action;
+        stroke:@darkest;
+      //   stroke: @action;
+      }
+
+      .inset circle {
+          fill:#434343;
+      }
+}
 
 .rotate {
 
@@ -928,12 +966,12 @@ footer {
   &.dark {
     svg {
         path {
-          stroke:@darker;
+          stroke:black;
           fill:@light;
         }
       }
    hr.strike {
-      // background-color: @dark;
+      background-color: #DDD;
     }
   }
 }
