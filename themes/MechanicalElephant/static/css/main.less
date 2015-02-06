@@ -259,16 +259,15 @@ a {
 }
 
 
+.container {
+  width: 600px;
+  padding-left: 220px;
+
+}
+
 article {
-
-    position:relative;
-    padding:170px;
-    padding-top:30px;
-    padding-bottom:0px;
-    // width:700px;
-    margin-left:auto;
-    margin-right:auto;
-
+    // position:relative;
+    // padding-bottom:0px;
 }
 
 #page {
@@ -276,10 +275,9 @@ article {
     min-height:400px;
     position:relative;
     margin-bottom:10px;
-    margin-left:auto;
-    margin-right:auto;
+
     position:relative;
-    top:-40px;
+    margin-top:40px;
     padding-bottom:40px;
 
     .titlebreak {
@@ -304,7 +302,7 @@ article {
         background-image: none;
         h1 {
           color:@darkest;
-          font-size:1.2em;
+          font-size:0.9em;
           font-weight:normal;
           padding:0;
           margin:0;
@@ -411,10 +409,11 @@ blockquote {
     margin:0;
 }
 
+
 header {
   position:relative;
-  padding-top:30px;
-  margin-top:60px;
+  // padding-left:170px;
+  margin-top:80px;
   width:100%;
   color:@darker;
   z-index:10;
@@ -422,15 +421,15 @@ header {
 
   h1 {
     font-size:2.55em;
-    color:@darker;
+    // color:@darker;
     font-weight:normal;
     margin-bottom:80px;
     z-index:100;
     // .rounded;
     // background-color:rgba(255,255,255,0.6);
     width:660px;
-    margin-left:auto;
-    margin-right:auto;
+    // margin-left:auto;
+    // margin-right:auto;
     padding:5px;
     // padding-left:;
   }
@@ -451,7 +450,7 @@ header {
   }
   .break {
     // left:-45px;
-    top:-67px;
+    // top:-67px;
     .goldgear {
       svg {
         
@@ -555,42 +554,18 @@ header {
 }
 
 nav {
-    position:absolute;
-    z-index:10;
-    // display:none;
-    text-align:center;
-    left:-95px;
-    top:110px;
-    padding-left:95px;
-    background-color:@lighter;
-    border-top:1px solid @grey;
-    border-bottom:1px solid @grey;
-    border-right:1px solid @grey;
-    // height:90px;
-    z-index:-30;
-    padding-right:700px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-
-
-    .container {
-      position:relative;
-      display:inline-block;
-      width:500px;
-      margin-left:auto;
-      margin-right:auto;
-    }
+    display: inline-block;
+    position:relative;
+    z-index: -30;
+    margin-left: 10px;
     a.nav-link {
-        // line-height:1.8em;
         position:relative;
         .small;
         text-transform: uppercase;
         text-align:left;
         width:100px;
-        float:left;
-
+        margin-left: 20px;
         &#last {
-          // float:right;
           margin-right:0px;
         }
     }
@@ -685,6 +660,7 @@ svg.sketched {
     // top:12px;
     // left:64px;
 
+
     path {
         stroke:black;
         fill:@light;
@@ -702,16 +678,17 @@ svg.sketched {
       width:100px;
       height:100px;
       margin-left:-135px;
+      display:none;
       // opacity:0.5;
       // top:12px;
       // left:64px;
 
-      .sun path {
-            fill: @action;
-          // fill: #333333;
-          // fill:@darkest;
-          stroke:@darkest;
-      }
+      // .sun path {
+      //       fill: @action;
+      //     // fill: #333333;
+      //     // fill:@darkest;
+      //     stroke:@darkest;
+      // }
 
       .planet path {
             fill: @light;
@@ -792,20 +769,11 @@ svg.sketched {
 
 .subtitle {
     display:block;
-    // position:absolute;
-    // top:-70px;
-    // left:80px;
     .rounded;
-    // padding-left:15px;
     padding-right:15px;
-    margin-top:5px;
-    // background-color:rgba(255,255,255,0.8);
     z-index:10;
-    // text-transform: uppercase;
     font-size:0.1em;
-    line-height:1em;
     margin-bottom:25px;
-    // font-family:"Open Sans";
 }
 .break {
   position:relative;
@@ -813,7 +781,7 @@ svg.sketched {
   height:30px;
   width:100%;
   text-align: center;
-  margin-top:10px;
+  margin-top:-20px;
 }
 #circle {
   display:none;

@@ -8,31 +8,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Mechanical Elephant</title>
-        <meta name="description" content="Mechanical Elephant designs and creates interactive products and science based experiences. Led by Matthew Griffith, Mechanical Elephant is based in Manhattan. This is about their creative process.">
+        <meta name="description" content="Mechanical Elephant is a design and technical studio created by Matthew Griffith. This is about their creative process.">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Cardo|Open+Sans:700,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
-
-
         {% block head %}
         {% endblock %}
     </head>
     <body>
-        <div class="top-bar">
-            <div class="container">
-                <div class="pull-left small-logo">Mechanical Elephant</div>
-                <a href="/articles/death-to-lorem-ipsum">
-                    The First Article of the Site
-                    <span class="subtitle">and how I should actually write it.</span>
-                </a>
-             
-            </div>
-        </div>
-
         <header class="container">
-            
             <h1>Mechanical Elephant
                 <a href="{{ SITEURL }}/">
                     <div id="gears">
@@ -41,32 +27,28 @@
                         {% include 'svg/planetary.svg' %}
                     </div>
                 </a>
-                <span id="subtitle">Creative Design</span>
-                <div class="break">{{ gears.break() }}</div>
-                <nav>
-                    <div class="container">
+                <span id="subtitle">Creative Design
+                    <nav>
                         <a class="nav-link" href="{{ SITEURL }}/archives.html">Archive</a>
                         <a class="nav-link" id="last" href="{{ SITEURL }}/pages/about">About</a>
-                        <!--  -->
-
-                    </div>
-
-                </nav>
+                    </nav>
+                </span>
+                <div class="break">{{ gears.break() }}</span>
             </h1>
         </header>
 
-        <div id="main">
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-            <div id="page" class="{% block page %}{% endblock %}">
-                {% block content %}
-                {% endblock %}
-            </div>
+        <div id="page" class="container {% block page %}{% endblock %}">
+            {% block content %}
+            {% endblock %}
         </div>
 
+
         <footer>
-            <div class="copyright">copyright Mechanical Elephant LLC.</div>
+            <div class="copyright">copyright Matthew Griffith</div>
         </footer>
 
         <script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"><\/script>')</script>
@@ -116,12 +98,11 @@
                     return tick
                 }
 
-
                 rotateAll($("#gears path"), speed)()
                 rotateAll($(".goldgear path"), 2)()
                 rotateAll($(".sketched path"), speed)()
 
-                rotate($(".sketched"), speed, 185, 1, 50, 50)()
+                // rotate($(".sketched"), speed, 185, 1, 50, 50)()
 
                 // var rotateElement = function(elem, speed){
                 //     var tick = function() {

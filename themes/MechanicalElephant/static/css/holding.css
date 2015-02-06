@@ -402,12 +402,6 @@ hr.action {
   background-color: #aaaaaa;
   width: 1000px;
 }
-hr.title-dash {
-  margin: 0;
-  margin-top: 10px;
-  padding: 0;
-  left: -15px;
-}
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -519,7 +513,7 @@ a [class*=" icon-"] {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.33333333;
+  font-size: 1.33333333em;
 }
 .btn [class^="icon-"],
 .nav [class^="icon-"],
@@ -1498,32 +1492,31 @@ body {
   color: #333332;
   background-color: #fafafa;
 }
-h1 {
-  position: relative;
-}
 a {
-  color: #499dcc;
+  color: #c19849;
   text-decoration: none;
 }
 #subtitle {
-  margin-top: 5px;
+  margin-top: 30px;
   display: block;
-  font-size: 0.4em;
-  color: #c19849;
+  display: none;
 }
-.blue {
-  color: #499dcc;
-}
-.container {
-  width: 600px;
-  padding-left: 220px;
+article {
+  position: relative;
+  padding: 170px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #page {
   height: 100%;
   min-height: 400px;
-  margin-bottom: 10px;
   position: relative;
-  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
   padding-bottom: 40px;
 }
 #page .titlebreak {
@@ -1537,12 +1530,13 @@ a {
   color: #777777;
   position: relative;
   padding: 0px;
+  padding-bottom: 100px;
   z-index: 5;
   background-image: none;
 }
 #page header h1 {
   color: #111111;
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -1555,7 +1549,7 @@ a {
 }
 #page p {
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: normal;
   font-size: 18px;
   margin-bottom: 35px;
   margin-top: 10px;
@@ -1615,17 +1609,23 @@ blockquote:before {
 }
 header {
   position: relative;
-  margin-top: 80px;
+  padding-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 120px;
   width: 100%;
   color: #777777;
   z-index: 10;
+  text-align: center;
 }
 header h1 {
-  font-size: 2.55em;
+  font-size: 2.2em;
+  color: #777777;
   font-weight: normal;
   margin-bottom: 80px;
   z-index: 100;
-  width: 660px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px;
 }
 header #description {
@@ -1728,27 +1728,44 @@ header #description:after {
   margin-right: auto;
 }
 nav {
-  display: inline-block;
   position: relative;
-  z-index: -30;
-  margin-left: 10px;
+  z-index: 10;
+  display: block;
+  text-align: center;
+  height: 90px;
+}
+nav .container {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 nav a.nav-link {
+  line-height: 1.8em;
   position: relative;
   font-size: 14px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   width: 100px;
-  margin-left: 20px;
+  float: left;
+  margin-top: 30px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /* future proofing */
+  -khtml-border-radius: 3px;
+  /* for old Konqueror browsers */
 }
 nav a.nav-link#last {
+  float: right;
   margin-right: 0px;
 }
 #gears {
-  position: absolute;
+  position: relative;
   display: block;
-  top: -45px;
-  left: -190px;
+  top: -28px;
+  left: -15px;
   width: 170px;
   height: 120px;
   margin-left: auto;
@@ -1762,10 +1779,6 @@ nav a.nav-link#last {
   height: 100px;
   top: 12px;
   left: 64px;
-}
-#gears svg .sun path {
-  fill: #c19849;
-  stroke: #111111;
 }
 #gears svg .planet path {
   fill: #c19849;
@@ -1800,32 +1813,14 @@ svg.sketched {
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 0px;
-  margin-left: -135px;
+  top: -40px;
+  margin-left: -150px;
+  left: 50%;
   z-index: -1;
 }
 svg.sketched path {
-  stroke: black;
-  fill: #fafafa;
-}
-svg.sketched .inset circle {
-  fill: #434343;
-}
-svg.sketched {
-  position: absolute;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin-left: -135px;
-  display: none;
-}
-svg.sketched .planet path {
-  fill: #fafafa;
-  stroke: #111111;
-}
-svg.sketched .annulus path {
-  fill: #fafafa;
-  stroke: #111111;
+  fill: #fcfcfc;
+  stroke: #cccccc;
 }
 svg.sketched .inset circle {
   fill: #434343;
@@ -1880,10 +1875,11 @@ svg.sketched .inset circle {
   /* future proofing */
   -khtml-border-radius: 5px;
   /* for old Konqueror browsers */
+  padding-left: 15px;
   padding-right: 15px;
+  margin-top: 5px;
   z-index: 10;
-  font-size: 0.1em;
-  margin-bottom: 25px;
+  font-size: 0.4em;
 }
 .break {
   position: relative;
@@ -1891,7 +1887,7 @@ svg.sketched .inset circle {
   height: 30px;
   width: 100%;
   text-align: center;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 #circle {
   display: none;
@@ -1959,7 +1955,6 @@ path {
   stroke-width: 1px;
 }
 footer {
-  padding-bottom: 100px;
   color: #777777;
   text-align: center;
   bottom: 0px;
@@ -2011,11 +2006,11 @@ footer .copyright {
   z-index: 1;
 }
 .goldgear.dark svg path {
-  stroke: black;
-  fill: #fafafa;
+  stroke: #373737;
+  fill: #373737;
 }
 .goldgear.dark hr.strike {
-  background-color: #DDD;
+  background-color: #2b2b2b;
 }
 /* ==========================================================================
    Helper classes
