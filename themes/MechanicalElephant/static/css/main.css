@@ -1515,7 +1515,7 @@ a {
   color: #499dcc;
 }
 .container {
-  width: 600px;
+  width: 660px;
   padding-left: 220px;
 }
 #page {
@@ -1625,7 +1625,6 @@ header h1 {
   font-weight: normal;
   margin-bottom: 80px;
   z-index: 100;
-  width: 660px;
   padding: 5px;
 }
 header #description {
@@ -2259,7 +2258,7 @@ footer .copyright {
     height: auto;
   }
   .top-bar .container {
-    width: 600px;
+    width: 660px;
   }
   .top-bar .container .goldgear {
     display: none;
@@ -2306,7 +2305,7 @@ footer .copyright {
     height: auto;
   }
   .top-bar .container {
-    width: 600px;
+    width: 660px;
   }
   .top-bar .container .goldgear {
     display: none;
@@ -2352,7 +2351,7 @@ footer .copyright {
     height: auto;
   }
   .top-bar .container {
-    width: 600px;
+    width: 660px;
   }
   .top-bar .container .goldgear {
     display: none;
@@ -2399,7 +2398,7 @@ footer .copyright {
     height: auto;
   }
   .top-bar .container {
-    width: 600px;
+    width: 660px;
   }
   .top-bar .container .goldgear {
     display: none;
