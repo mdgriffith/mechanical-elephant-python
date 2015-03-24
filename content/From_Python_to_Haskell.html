@@ -1,0 +1,112 @@
+<h3>From Python to Haskell</h3>
+
+<h1>General Background</h1>
+
+<h1>Data First</h1>
+
+<p>In python, in many cases,  the structure of the data you&rsquo;re working with is implied by the code.  In Haskell, it is stated explicitly.  I noticed a subtle shift in how I was coding in haskell in that my first thought is more aligned with &ldquo;how is the data structured&rdquo;, while in python my first thought was &ldquo;what does the code say.&rdquo;</p>
+
+<p>Once you have this shift, and you start with looking at data first, it becomes easier to read haskell, because there&rsquo;s a lot you don&rsquo;t have to read.  To understand a function, you look at its type signature.  You only really look at the guts of the function if you&rsquo;re trying to come to a greater understanding of that specific function.</p>
+
+<h1>The Great Synonym Table</h1>
+
+<p>Map a function over one argument that is in a container. (i.e. Functors)</p>
+
+<table>
+<thead>
+<tr>
+<th>function </th>
+<th> notes </th>
+<th> examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>map      </td>
+<td> specific to lists</td>
+<td></td>
+</tr>
+<tr>
+<td>fmap     </td>
+<td> More generic, works on anything that has implemented it</td>
+<td></td>
+</tr>
+<tr>
+<td>&lt;$>      </td>
+<td> Exactly the same as fmap, but its infix.  f &lt;$> d</td>
+<td></td>
+</tr>
+<tr>
+<td>liftM    </td>
+<td> Same as fmap, but in the Monad module.</td>
+<td></td>
+</tr>
+<tr>
+<td>liftA    </td>
+<td> Same as fmap, but in the Applicative module.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Map a function over multiple arguments, each in containers (i.e. Applicative)</p>
+
+<table>
+<thead>
+<tr>
+<th>function </th>
+<th> notes </th>
+<th> examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;*>      </td>
+<td>  In the Applicative </td>
+<td></td>
+</tr>
+<tr>
+<td><code>ap</code>     </td>
+<td>  In Monad</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Put a value in a container.  How does it know which container?  By the type signature, or it figures it out based on code around it.</p>
+
+<table>
+<thead>
+<tr>
+<th>function </th>
+<th> notes </th>
+<th> examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pure     </td>
+<td>  In the Applicative</td>
+<td></td>
+</tr>
+<tr>
+<td>return   </td>
+<td>  In Monad</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Bind multiple functions
+function | notes | examples
+&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;
+&lsquo;>==&rsquo;    |  In the Monad module.
+&lsquo;&lt;-&rsquo;     |  This is &lsquo;do&rsquo; notation</p>
+
+<h1>A note for people from python.</h1>
+
+<p>https://www.python.org/dev/peps/pep-0020/
+When I started and found this list of synonyms, I started to think that this haskell thing was bogus.  I tracked it back to the python principle of &lsquo;There should be one&ndash; and preferably only one &ndash;obvious way to do it.&rsquo;  So many synonyms said that there were a number of ways to do things in haskell.  While I still generally agree with the &lsquo;only one&rsquo; principle, Haskell provides an interesting entry.  Because of Haskell&rsquo;s type system, where a function is guaranteed to take a specific input and always return a specific output&hellip;.you have a huge guarantee of safety.  This level of safety allows you to be more expressive in your code.</p>
