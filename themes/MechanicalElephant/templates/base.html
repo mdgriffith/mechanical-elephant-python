@@ -13,28 +13,25 @@
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Cardo|Open+Sans:700,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
+        <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'> -->
         {% block head %}
         {% endblock %}
     </head>
     <body>
-        <header class="container">
-            <h1>Mechanical Elephant
-                <a href="{{ SITEURL }}/">
-                    <div id="gears">
-                        <img id="skull" class="elephant" src="{{ SITEURL }}/theme/img/logo/darker.png" width="170" height="233" />
-                        <img id="mortimer" class="elephant" src="{{ SITEURL }}/theme/img/logo/coverclean.png" width="170" height="233" />
-                        {% include 'svg/planetary.svg' %}
-                    </div>
-                </a>
-                <span id="subtitle">Creative Design
-                    <nav>
-                        <a class="nav-link" href="{{ SITEURL }}/archives.html">Archive</a>
-                        <a class="nav-link" id="last" href="{{ SITEURL }}/pages/about">About</a>
-                    </nav>
-                </span>
-                <div class="break">{{ gears.break() }}</span>
-            </h1>
+        <header class="container logo">
+            <h1>Mechanical Elephant</h1>
+            <a href="{{ SITEURL }}/">
+                <div id="gears">
+                    <img id="skull" class="elephant" src="{{ SITEURL }}/theme/img/logo/darker.png" width="170" height="233" />
+                    <img id="mortimer" class="elephant" src="{{ SITEURL }}/theme/img/logo/coverclean.png" width="170" height="233" />
+                    {% include 'svg/planetary.svg' %}
+                </div>
+            </a>
+            <nav>
+                <a class="nav-link" href="{{ SITEURL }}/archives.html">Archive</a>
+                <a class="nav-link" id="last" href="{{ SITEURL }}/pages/about">About</a>
+            </nav>
+            <div class="break">{{ gears.break() }}</span>
         </header>
 
 

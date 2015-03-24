@@ -9,15 +9,12 @@
 
             {% for category, articles in categories %}
                  {% for article in articles %}
-                <div class="container">
-                    <a href="{{ SITEURL }}/articles/{{ article.slug }}">
-                    <div class="card drop-first">
-                        {{ article.title }}
-                        <div class="subtitle">{{ article.subtitle }}</div>
-                    </div>
-                    </a>
+                <a href="{{ SITEURL }}/articles/{{ article.slug }}">
+                <div class="card drop-first">
+                    {{ article.title }}
+                    <div class="subtitle">{{ article.subtitle }}</div>
                 </div>
-                
+                </a>
                 {% endfor %}
             {% endfor %}
                {% include 'svg/break.html' %}
