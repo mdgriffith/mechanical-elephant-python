@@ -11,9 +11,7 @@
         <meta name="description" content="Mechanical Elephant is a design and technical studio created by Matthew Griffith. This is about their creative process.">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Cardo|Open+Sans:700,400' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
-        <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'> -->
+        <link href='http://fonts.googleapis.com/css?family=Lato|Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
         {% block head %}
         {% endblock %}
     </head>
@@ -28,6 +26,7 @@
                 </div>
             </a>
             <nav>
+                <a class="nav-link" href="{{ SITEURL }}/">Blog</a>
                 <a class="nav-link" href="{{ SITEURL }}/archives.html">Archive</a>
                 <a class="nav-link" id="last" href="{{ SITEURL }}/pages/about">About</a>
             </nav>
@@ -43,84 +42,14 @@
             {% endblock %}
         </div>
 
-
         <footer>
-            <div class="copyright">copyright Matthew Griffith</div>
+            <div class="container copyright">copyright Matthew Griffith 2015</div>
         </footer>
 
         <script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"><\/script>')</script>
         <!-- // <script src="{{ SITEURL }}/theme/js/svggears.js"></script> -->
         <script type="text/javascript">
             $(document).ready(function(){
-                // var dropped = false;
-                // $(window).scroll(function(){
-                //     if (dropped === false && $(window).scrollTop() >= $("nav").offset().top) {
-                //         $(".top-bar").show();
-                //         dropped = true
-                //     } else if (dropped === true && $(window).scrollTop() < $("nav").offset().top) {
-                //         $(".top-bar").hide();
-                //         dropped = false
-                //     }
-                // })
-
-                var start = Date.now();
-                var speed = 3;
-                var rotateAll = function(elem, speed){
-                    var tick = function() {
-                      var angle = (Date.now() - start) * speed;
-
-                      var transform = function(d) {
-                            var radius = $(this).attr("radius");
-                            var direction = $(this).attr("direction");
-                            if (radius !== undefined){
-                                 return "rotate(" + angle / (radius*direction) + ")";
-                            }
-                      };
-                      elem.attr("transform", transform)
-                      setTimeout(tick, 40);
-                    }
-                    return tick
-                }
-                var rotate = function(elem, speed, radius, direction, x, y){
-                    var tick = function() {
-                      var angle = (Date.now() - start) * speed;
-                      var transform = function(d) {
-                            if (radius !== undefined){
-                                 return "rotate(" + angle / (radius*direction) + ", "+x+","+y+")";
-                            }
-                      };
-                      elem.attr("transform", transform)
-                      setTimeout(tick, 40);
-                    }
-                    return tick
-                }
-
-                rotateAll($("#gears path"), speed)()
-                rotateAll($(".goldgear path"), 2)()
-                rotateAll($(".sketched path"), speed)()
-
-                // rotate($(".sketched"), speed, 185, 1, 50, 50)()
-
-                // var rotateElement = function(elem, speed){
-                //     var tick = function() {
-                //       var angle = (Date.now() - start) * speed;
-                //
-                //       var transform = function(d) {
-                //             var radius = $(this).attr("radius");
-                //             var direction = $(this).attr("direction");
-                //             if (radius !== undefined){
-                //                 //  console.log("rotate(" + angle / (radius*direction) + ")");
-                //                  return "rotate(" + angle / (radius*direction) + ")";
-                //             }
-                //       };
-                //       elem.attr("transform", transform)
-                //       setTimeout(tick, 40);
-                //     }
-                //     return tick
-                // }
-
-                rotateAll($(".rotate-anim"), speed)()
-
                 $("#gears").hover(function(){
                     $("#gears #mortimer").fadeTo(300, 0.9);
                 },function(){

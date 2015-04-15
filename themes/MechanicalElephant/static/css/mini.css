@@ -183,7 +183,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 14px;
+  line-height: 1.2em;
 }
 /* Forms
    ========================================================================== */

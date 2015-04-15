@@ -193,7 +193,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 14px;
+  line-height: 1.2em;
 }
 /* Forms
    ========================================================================== */
@@ -513,7 +514,7 @@ a [class*=" icon-"] {
 /* makes the font 33% larger relative to the icon container */
 .icon-large:before {
   vertical-align: -10%;
-  font-size: 1.33333333em;
+  font-size: 1.33333333;
 }
 .btn [class^="icon-"],
 .nav [class^="icon-"],

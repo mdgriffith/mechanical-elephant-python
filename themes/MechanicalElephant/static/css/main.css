@@ -193,7 +193,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 14px;
+  line-height: 1.2em;
 }
 /* Forms
    ========================================================================== */
@@ -1548,8 +1549,18 @@ a {
 #page header a h1 {
   color: #111111;
 }
+#page header a:before {
+  content: "{";
+  color: #c19849;
+  float: left;
+  position: relative;
+  left: -95px;
+  font-size: 80px;
+  top: 20px;
+}
 #page .subtitle {
   font-size: 22px;
+  color: #838994;
 }
 #page p {
   font-weight: 300;
@@ -1557,6 +1568,10 @@ a {
   margin-bottom: 35px;
   margin-top: 10px;
   line-height: 1.6;
+}
+#page p a {
+  box-shadow: 0px -4px 0px #c19849 inset;
+  color: #111111;
 }
 #page img {
   float: left;
@@ -1772,7 +1787,7 @@ nav a.nav-link#last {
   stroke: #111111;
 }
 #gears svg .annulus path {
-  fill: #333333;
+  fill: #555;
   stroke: #111111;
 }
 #gears svg .inset circle {
@@ -2017,6 +2032,128 @@ footer .copyright {
 }
 .goldgear.dark hr.strike {
   background-color: #DDD;
+}
+@-webkit-keyframes rotating {
+  /* Safari and Chrome */
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes reverse-rotating {
+  /* Safari and Chrome */
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes reverse-rotating {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.anim-rotate-60 {
+  -webkit-animation: rotating 9720ms linear infinite;
+  -moz-animation: rotating 9720ms linear infinite;
+  -ms-animation: rotating 9720ms linear infinite;
+  -o-animation: rotating 9720ms linear infinite;
+  animation: rotating 9720ms linear infinite;
+}
+.anim-rotate-35 {
+  -webkit-animation: rotating 5670ms linear infinite;
+  -moz-animation: rotating 5670ms linear infinite;
+  -ms-animation: rotating 5670ms linear infinite;
+  -o-animation: rotating 5670ms linear infinite;
+  animation: rotating 5670ms linear infinite;
+}
+.anim-rotate-35-rev {
+  -webkit-animation: reverse-rotating 5670ms linear infinite;
+  -moz-animation: reverse-rotating 5670ms linear infinite;
+  -ms-animation: reverse-rotating 5670ms linear infinite;
+  -o-animation: reverse-rotating 5670ms linear infinite;
+  animation: reverse-rotating 5670ms linear infinite;
+}
+.anim-rotate-55-rev {
+  -webkit-animation: reverse-rotating 8910ms linear infinite;
+  -moz-animation: reverse-rotating 8910ms linear infinite;
+  -ms-animation: reverse-rotating 8910ms linear infinite;
+  -o-animation: reverse-rotating 8910ms linear infinite;
+  animation: reverse-rotating 8910ms linear infinite;
+}
+.anim-rotate-55 {
+  -webkit-animation: rotating 8910ms linear infinite;
+  -moz-animation: rotating 8910ms linear infinite;
+  -ms-animation: rotating 8910ms linear infinite;
+  -o-animation: rotating 8910ms linear infinite;
+  animation: rotating 8910ms linear infinite;
+}
+.anim-rotate-185 {
+  -webkit-animation: rotating 29970ms linear infinite;
+  -moz-animation: rotating 29970ms linear infinite;
+  -ms-animation: rotating 29970ms linear infinite;
+  -o-animation: rotating 29970ms linear infinite;
+  animation: rotating 29970ms linear infinite;
+}
+.anim-rotate-95-rev {
+  -webkit-animation: reverse-rotating 15390ms linear infinite;
+  -moz-animation: reverse-rotating 15390ms linear infinite;
+  -ms-animation: reverse-rotating 15390ms linear infinite;
+  -o-animation: reverse-rotating 15390ms linear infinite;
+  animation: reverse-rotating 15390ms linear infinite;
+}
+.anim-rotate-185-rev {
+  -webkit-animation: reverse-rotating 29970ms linear infinite;
+  -moz-animation: reverse-rotating 29970ms linear infinite;
+  -ms-animation: reverse-rotating 29970ms linear infinite;
+  -o-animation: reverse-rotating 29970ms linear infinite;
+  animation: reverse-rotating 29970ms linear infinite;
 }
 /* ==========================================================================
    Helper classes

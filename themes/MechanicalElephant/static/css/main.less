@@ -298,6 +298,7 @@ article {
 
         }
 
+       
 
 
         a {
@@ -311,10 +312,20 @@ article {
             //     color:@accent;
             //   }
             // }
+            &:before{
+              content:"{";
+              color:@action;
+              float:left;
+              position:relative;
+              left:-95px;
+              font-size:80px;
+              top:20px;
+            }
         }
     }
     .subtitle {
       font-size:22px;
+      color:#838994;
     }
     p {
         // font-family:"Helvetica", "Open Sans";
@@ -323,6 +334,10 @@ article {
         margin-bottom:35px;
         margin-top:10px;
         line-height:1.6;
+        a {
+          box-shadow: 0px -4px 0px #C19849 inset;
+          color: @darkest;
+        }
     }
     img {
         //   width:300px;
@@ -581,24 +596,18 @@ nav {
         left:64px;
 
         .sun path {
-              fill: @action;
-            // fill: #333333;
-            // fill:@darkest;
+            fill: @action;
             stroke:@darkest;
         }
 
         .planet path {
-              fill: @action;
-            // fill: #333333;
-            // fill:@darker;
+            fill: @action;
             stroke:@darkest;
         }
 
         .annulus path {
-          fill: #333333;
-        //   fill:@action;
+          fill: #555;
           stroke:@darkest;
-        //   stroke: @action;
         }
 
         .inset circle {
@@ -933,6 +942,116 @@ footer {
 }
 
 
+
+
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes reverse-rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes reverse-rotating {
+  from {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+
+.rotate(@radius) {
+  -webkit-animation: rotating (@radius*162ms) linear infinite;
+  -moz-animation: rotating (@radius*162ms) linear infinite;
+  -ms-animation: rotating (@radius*162ms) linear infinite;
+  -o-animation: rotating (@radius*162ms) linear infinite;
+  animation: rotating (@radius*162ms) linear infinite;
+}
+.rotate-rev(@radius) {
+  -webkit-animation: reverse-rotating (@radius*162ms) linear infinite;
+  -moz-animation: reverse-rotating (@radius*162ms) linear infinite;
+  -ms-animation: reverse-rotating (@radius*162ms) linear infinite;
+  -o-animation: reverse-rotating (@radius*162ms) linear infinite;
+  animation: reverse-rotating (@radius*162ms) linear infinite;
+}
+.anim-rotate-60 {
+  .rotate(60);
+}
+.anim-rotate-35 {
+  .rotate(35);
+}
+.anim-rotate-35-rev {
+  .rotate-rev(35);
+}
+.anim-rotate-55-rev {
+  .rotate-rev(55);
+}
+.anim-rotate-55 {
+  .rotate(55);
+}
+.anim-rotate-185 {
+  .rotate(185);
+}
+.anim-rotate-95-rev {
+  .rotate-rev(95);
+}
+.anim-rotate-185-rev {
+  .rotate-rev(185);
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1033,6 +1152,7 @@ footer {
 .clearfix {
     *zoom: 1;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

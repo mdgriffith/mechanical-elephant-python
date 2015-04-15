@@ -3,18 +3,17 @@
 {% block content %}
     {% for article in dates %}
     <article>
+    
         <header>
             <a href="{{ SITEURL }}/articles/{{ article.slug }}" >
                 <h1>{{ article.title }}</h1>
-                <!-- <hr class="title-dash" /> -->
-                <!-- <div class="break">{{ gears.break() }}</div> -->
                 <div class="subtitle">{{ article.subtitle }}</div>
             </a>
-            {{ gears.planetary3() }}
+            {# gears.planetary3() #}
         </header>
-
         {{ article.content }}
         <div class="break">{{ gears.break() }}</span>
+
     </article>
     {% endfor %}
 {% endblock content %}
