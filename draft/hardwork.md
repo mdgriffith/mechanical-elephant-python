@@ -19,6 +19,8 @@ Well, the first thing I needed was a bit of direction on what this website would
 I sat on it awhile.  I knew I wanted to show a tiny bit of fun programming, specifically animations in the browser using SVG, and that sort of led me to looking into cogs and gears.  Conceptually, this made a few dimensions of sense.  I could have my little programming sub project in making the animations, it's not hard to jump from the visual of gears to science, and lets face it, they're just fun.
 
 
+
+
 So, I made <this small gear library>, using D3.js, <this example>, and a random gif I found online of an asymmetrical planetary gear configuration.
 
 But, there was a bit of a problem.  The gears were cool, but they weren't enough by themselves.  In fact, the gears weren't just cool, they seemed a bit cold and I had no idea how to address that.
